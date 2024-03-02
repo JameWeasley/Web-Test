@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="container">
+            <div class="head-nav">
+                <div class="logo">
+                    <img src="https://ptcdn.info/mobile/logo-mobile-pantip-white.png" alt="" style="width: 100px;">
+                </div>
+
+                <div class="head-menu">
+                    <button class="btn-head">ตั้งกระทู้</button>
+                    <button class="btn-head">คอมมูนิตี้</button>
+                </div>
+
+                <div class="login-menu">
+                    เข้าสู่ระบ / สมัครสมาชิก
+                </div>
+            </div>
+
+            <div class="head-search">
+                <div class="box-1">
+                    <input type="search" placeholder="ค้นหา pantip">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div class="title-menu">
+            <div class="menu-list">
+                <i class="fa-solid fa-image">แกลเลอรี่</i>
+                <i class="fa-solid fa-music">เพลง</i>
+                <i class="fa-solid fa-house">บ้าน</i>
+                <i class="fa-solid fa-people-roof">ชายคา</i>
+                <i class="fa-solid fa-star">ดารา</i>
+                <i class="fa-solid fa-truck-fast">ขนส่ง</i>
+                <i class="fa-solid fa-mug-hot">ข่าวร้อน</i>
+                <i class="fa-solid fa-gear">เครื่องมือ</i>
+                <i class="fa-solid fa-fire">ร้อนแรง</i>
+                <i class="fa-solid fa-plane">เครืองบิน</i>
+                <i class="fa-solid fa-video">วีดีโอ</i>
+                <i class="fa-brands fa-docker">ดอกเกอร์</i>
+                <i class="fa-brands fa-windows">วินโดว์</i>
+                <i class="fa-solid fa-bicycle">จักรยาน</i>
+                <i class="fa-solid fa-gamepad">เกม</i>
+                <i class="fa-solid fa-palette">ข้อมูล 1</i>
+                <i class="fa-solid fa-binoculars">ข้อมูล 2</i>
+
+                <div class="filter-menu">
+                    <i class="fa-solid fa-sliders"></i>
+                    <span>ตัวกรอง</span>
+                </div>
+
+                <div class="filter-menu">
+                    <span>แสดงข้อมูลข่าวสารต่างๆ</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                </div>
+            </div>
+        </div>
+
+        <div class="filter-lastmenu">
+
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="section-product">
+            <div class="product-detail-1">
+                <div class="img mySlides">
+                    <img src="https://f.ptcdn.info/364/083/000/s9k72ax4z5TqXCGg3Rr8-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides">
+                    <img src="https://f.ptcdn.info/394/083/000/s9pldf1vwegONh9M25zq1-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides">
+                    <img src="https://f.ptcdn.info/394/083/000/s9pk16oy691gkh8Agvbe-o.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-2">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-2">
+                    <img src="https://cdn.pixabay.com/photo/2014/02/17/10/20/statue-of-liberty-267948_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides2(-1)">❮</a>
+                <a class="next" onclick="plusSlides2(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide2(1)"></span>
+                    <span class="dot" onclick="currentSlide2(2)"></span>
+                    <span class="dot" onclick="currentSlide2(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-3">
+                    <img src="https://f.ptcdn.info/353/083/000/s9i7cf1v6jqdoWudqEoKM-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-3">
+                    <img src="https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-opera-house-363244_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides3(-1)">❮</a>
+                <a class="next" onclick="plusSlides3(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide3(1)"></span>
+                    <span class="dot" onclick="currentSlide3(2)"></span>
+                    <span class="dot" onclick="currentSlide3(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-4">
+                    <img src="https://f.ptcdn.info/007/082/000/s2nc191schy1n4uqopP3L-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-4">
+                    <img src="https://cdn.pixabay.com/photo/2024/02/20/06/47/ai-generated-8584763_640.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+                <a class="prev" onclick="plusSlides4(-1)">❮</a>
+                <a class="next" onclick="plusSlides4(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide4(1)"></span>
+                    <span class="dot" onclick="currentSlide4(2)"></span>
+                    <span class="dot" onclick="currentSlide4(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-5">
+                    <img src="https://f.ptcdn.info/381/083/000/s9n5a2246swO3LIh63lME-o.png" alt="">
+                </div>
+
+                <div class="img mySlides-5">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides5(-1)">❮</a>
+                <a class="next" onclick="plusSlides5(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide5(1)"></span>
+                    <span class="dot" onclick="currentSlide5(2)"></span>
+                    <span class="dot" onclick="currentSlide5(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-6">
+                    <img src="https://f.ptcdn.info/236/083/000/s8w1c21mcn0IbrbPwn7Xg-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-6">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides6(-1)">❮</a>
+                <a class="next" onclick="plusSlides6(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide6(1)"></span>
+                    <span class="dot" onclick="currentSlide6(2)"></span>
+                    <span class="dot" onclick="currentSlide6(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-7">
+                    <img src="https://f.ptcdn.info/617/082/000/s5jjj3hcfjr2Dof0812m-o.png" alt="">
+                </div>
+
+                <div class="img mySlides-7">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides7(-1)">❮</a>
+                <a class="next" onclick="plusSlides7(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide7(1)"></span>
+                    <span class="dot" onclick="currentSlide7(2)"></span>
+                    <span class="dot" onclick="currentSlide7(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-8">
+                    <img src="https://f.ptcdn.info/355/083/000/s9ilgf4bjxbaabpjAzgr-o.png" alt="">
+                </div>
+
+                <div class="img mySlides-8">
+                    <img src="https://f.ptcdn.info/355/083/000/s9ilgf4bjxbaabpjAzgr-o.png" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides8(-1)">❮</a>
+                <a class="next" onclick="plusSlides8(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide8(1)"></span>
+                    <span class="dot" onclick="currentSlide8(2)"></span>
+                    <span class="dot" onclick="currentSlide8(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-9">
+                    <img src="https://f.ptcdn.info/390/083/000/s9owxtqejpPgtxovF959-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-9">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides9(-1)">❮</a>
+                <a class="next" onclick="plusSlides9(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide9(1)"></span>
+                    <span class="dot" onclick="currentSlide9(2)"></span>
+                    <span class="dot" onclick="currentSlide9(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-10">
+                    <img src="https://f.ptcdn.info/376/083/000/s9m4zkua6skkf0mABTYs-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-10">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides10(-1)">❮</a>
+                <a class="next" onclick="plusSlides10(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide10(1)"></span>
+                    <span class="dot" onclick="currentSlide10(2)"></span>
+                    <span class="dot" onclick="currentSlide10(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-11">
+                    <img src="https://f.ptcdn.info/376/083/000/s9m4zkua6skkf0mABTYs-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-11">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides11(-1)">❮</a>
+                <a class="next" onclick="plusSlides11(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide11(1)"></span>
+                    <span class="dot" onclick="currentSlide11(2)"></span>
+                    <span class="dot" onclick="currentSlide11(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-12">
+                    <img src="https://f.ptcdn.info/376/083/000/s9m4zkua6skkf0mABTYs-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-12">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides12(-1)">❮</a>
+                <a class="next" onclick="plusSlides12(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide12(1)"></span>
+                    <span class="dot" onclick="currentSlide12(2)"></span>
+                    <span class="dot" onclick="currentSlide12(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-13">
+                    <img src="https://f.ptcdn.info/376/083/000/s9m4zkua6skkf0mABTYs-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-13">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides13(-1)">❮</a>
+                <a class="next" onclick="plusSlides13(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide13(1)"></span>
+                    <span class="dot" onclick="currentSlide13(2)"></span>
+                    <span class="dot" onclick="currentSlide13(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-14">
+                    <img src="https://f.ptcdn.info/376/083/000/s9m4zkua6skkf0mABTYs-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-14">
+                    <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_1280.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides14(-1)">❮</a>
+                <a class="next" onclick="plusSlides14(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide14(1)"></span>
+                    <span class="dot" onclick="currentSlide14(2)"></span>
+                    <span class="dot" onclick="currentSlide14(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-15">
+                    <img src="https://f.ptcdn.info/363/083/000/s9k3cg2gosqly1XUWBVgM-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-15">
+                    <img src="https://f.ptcdn.info/393/083/000/s9pec21ofng5I9v3MhXU9-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-15">
+                    <img src="https://f.ptcdn.info/393/083/000/s9pca519s80xjo7Ehu3bU-o.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides15(-1)">❮</a>
+                <a class="next" onclick="plusSlides15(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide15(1)"></span>
+                    <span class="dot" onclick="currentSlide15(2)"></span>
+                    <span class="dot" onclick="currentSlide15(3)"></span>
+                </div>
+            </div>
+
+            <div class="product-detail-1">
+                <div class="img mySlides-16">
+                    <img src="https://f.ptcdn.info/393/083/000/s9pgbu2ehpiZRbCqPL4AZ-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-16">
+                    <img src="https://f.ptcdn.info/393/083/000/s9pfof1q4gxjTMzI4Imo1-o.jpg" alt="">
+                </div>
+
+                <div class="img mySlides-16">
+                    <img src="https://f.ptcdn.info/393/083/000/s9pg3y23btkFHxWperL6K-o.jpg" alt="">
+                </div>
+                <div class="info">
+                    ข่าวสารใหม่ๆ
+                </div>
+                <div class="icon-news">
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+
+                <div class="product-value">
+                    <div class="product-title">
+                        <h5>ข้อมูล 1</h5>
+                        <i class="fa-solid fa-comment"><span style="margin-left: .5rem;">10</span></i>
+                    </div>
+                    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Exercitationem, nisi.</p>
+                </div>
+
+                <a class="prev" onclick="plusSlides16(-1)">❮</a>
+                <a class="next" onclick="plusSlides16(1)">❯</a>
+
+                <div style="text-align:center" id="select-dot">
+                    <span class="dot" onclick="currentSlide16(1)"></span>
+                    <span class="dot" onclick="currentSlide16(2)"></span>
+                    <span class="dot" onclick="currentSlide16(3)"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer class="container">
+        <div class="footer-con">
+            <div class="logo-footer">
+                <img src="https://ptcdn.info/mobile/logo-mobile-pantip-white.png" alt="" style="width: 100px;">
+            </div>
+
+            <div class="footer-info">
+                <h5><a href="">เว็บในเครือ</a></h5>
+                <h5><a href="">กฎ กติกาและมารยาท</a></h5>
+                <h5><a href="">คำแนะนำการโพสต์</a></h5>
+                <h5><a href="">นโยบายเกี่ยวกับข้อมูลส่วนบุคคล</a></h5>
+                <h5><a href="">สิทธิ์การใช้งานของสมาชิก</a></h5>
+                <h5><a href="">ติดต่อทีมงาน Pantip</a></h5>
+                <h5><a href="">ติดต่อลงโฆษณา</a></h5>
+            </div>
+            <hr>
+
+            <div class="blog">
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Pantip Marker</a>
+                    <p>พันทิป มากเกอร์</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Nag Gang</a>
+                    <p>แน็คแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Pantown</a>
+                    <p>แพนทาวน์</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+
+                <div class="blog-detail">
+                    <a href="#">Blog Gang</a>
+                    <p>บล็อคแก็ง</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
