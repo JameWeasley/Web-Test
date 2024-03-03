@@ -554,3 +554,14 @@ nav.classList.toggle('sticky');
 
 
 window.addEventListener('scroll', scrollDown);
+
+
+
+function mobileMenu() {
+    let mobile = document.getElementById("mobile-menu");
+    if (mobile.style.display === "none") {
+        mobile.style.display = "flex";
+    }else {
+        mobile.style.display = "none"
+    }
+}
