@@ -76,6 +76,7 @@ nav {
 .title-menu {
     padding: 1rem 3rem;
     color: #fff;
+    display: flex;
 }
 
 .title-menu i {
@@ -88,6 +89,7 @@ nav {
 .menu-list {
     display: flex;
     align-items: center;
+    overflow: auto;
 }
 
 .section-product {
@@ -385,6 +387,18 @@ input:checked+.slider:before {
     }
 
     .title-menu {
+        padding: 20px 20px;
+        align-items: center;
+        white-space: nowrap;
+    }
+
+    .title-menu .filter-menu{
+        padding: 0 5px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .mobile-hide {
         display: none;
     }
 

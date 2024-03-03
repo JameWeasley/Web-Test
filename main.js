@@ -369,11 +369,11 @@ function showSlides11(n) {
 let slideIndex12 = 1;
 showSlides12(slideIndex12);
 
-function plusSlides11(n) {
+function plusSlides12(n) {
     showSlides12(slideIndex12 += n);
 }
 
-function currentSlide11(n) {
+function currentSlide12(n) {
     showSlides12(slideIndex12 = n);
 }
 
